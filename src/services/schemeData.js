@@ -83,6 +83,30 @@ export const allSchemes = [
     occupations: ["Any"],
     maxIncome: 1800000,
     states: ["All"]
+  },
+  {
+    id: 8,
+    name: "PM-SYM (Pension Scheme)",
+    description: "Pradhan Mantri Shram Yogi Maandhan for unorganized workers.",
+    score: 89,
+    benefits: ["₹3000 monthly pension", "Safe retirement", "Gov matching contribution"],
+    minAge: 18,
+    maxAge: 40,
+    occupations: ["Worker", "Daily Wage", "Farmer"],
+    maxIncome: 180000,
+    states: ["All"]
+  },
+  {
+    id: 9,
+    name: "National Social Assistance Programme",
+    description: "Financial assistance to the elderly, widows and persons with disabilities.",
+    score: 93,
+    benefits: ["Monthly financial support", "Dignified living", "Social security"],
+    minAge: 60,
+    maxAge: 100,
+    occupations: ["Any"],
+    maxIncome: 120000,
+    states: ["All"]
   }
 ];
 
